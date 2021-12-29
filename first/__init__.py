@@ -19,4 +19,3 @@ print(numbers)
 
 num = (11, 12)
 print(num)
-

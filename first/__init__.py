@@ -14,4 +14,9 @@ print(numbers2)
 numbers.append(22)
 numbers.remove(22)
 numbers.insert(10, 222)
+numbers.reverse()
 print(numbers)
+
+num = (11, 12)
+print(num)
+

@@ -6,5 +6,11 @@ aSet = {1, 2, 3}
 
 alist.append(4)
 aSet.add(4)
+aSet.add(4)
+aSet.add(4)
+aSet.add(4)
+aSet.add(4)
 
 print(alist, aTuple, aSet)
+
+

@@ -1,3 +1,8 @@
+class Hama:
+    def __init__(self, miner):
+        self.miner = miner
+
+
 class User:
     def __init__(self, thing):
         self.thing = thing
@@ -6,17 +11,8 @@ class User:
         return self.thing
 
 
-user = User(12)
-print(user.thing)
+class Customer(User, Hama):
 
-happy = User("milad")
-print(happy.thing)
-
-print(happy.whatIsTheThing())
-
-
-def somthing(num: int):
-    print(num)
-
-
-somthing("fdf")
+    def __init__(self):
+        self.thing = ""
+        self.miner = 12
